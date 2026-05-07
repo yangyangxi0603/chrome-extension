@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Playlist URL Exporter",
+  "version": "1.0",
+  "description": "导出 YouTube 播放列表 URL",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
